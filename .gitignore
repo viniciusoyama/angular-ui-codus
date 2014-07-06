@@ -1,4 +1,4 @@
-# generic (system) files/extensions we don't want
+lib-cov
 *.seed
 *.log
 *.csv
@@ -6,14 +6,18 @@
 *.out
 *.pid
 *.gz
-.idea/*
-*.DS_Store
-lib-cov
+*.swp
+*.swo
+.DS_Store
+
 pids
 logs
 results
+dist
+# test coverage files
+coverage/
 
 node_modules
+npm-debug.log
 
-#Actually, need to track these for site to run on Github Pages..
-#bower_components
+template/**/*.js
